@@ -1,0 +1,220 @@
+.header {
+    background-color: #2a589c; /* Sets the background color to a shade of blue */
+    color: white; /* Makes the text white */
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    display: flex; /* Enables flexbox */
+    justify-content: space-between; /* Adds space between the items */
+    align-items: center; /* Aligns items vertically */
+    font-weight: lighter; /* Makes the text lighter */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    box-shadow: 0 4px 2px -2px gray; /* Adds a shadow effect to the header */
+}
+.w-btn-wrap {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* Makes the text white */
+}
+.w-half-button {
+    background-color: #2a589c; /* Sets the background color to a shade of blue */
+    color: white; /* Makes the text white */
+    padding: 10px 20px; /* Adds padding around the button */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    font-size: 16px; /* Sets the font size */
+    font-weight: lighter; /* Makes the text lighter */
+    margin-left: 10px; /* Adds margin to the left of the button */
+    text-decoration: none; /* Removes underline from links */
+    padding-bottom: -150px;
+    margin-bottom: 150px;
+}
+.w-full-button {
+    background-color: #2a589c; /* Sets the background color to a shade of blue */
+    color: white; /* Makes the text white */
+    padding: 10px 40px; /* Adds padding around the button */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    font-size: 16px; /* Sets the font size */
+    font-weight: lighter; /* Makes the text lighter */
+    margin-left: 10px; /* Adds margin to the left of the button */
+    text-decoration: none; /* Removes underline from links */
+    margin-top: 20px; /* Adds margin to the top of the button */
+    padding-top: 20px; /* Adds padding to the top of the button */
+}
+.white-txt {
+    color: blue; /* Sets the text color to white */
+    font-weight: bold; /* Makes the text bold */
+    font-size: 25px;
+    margin-left: 10px; /* Adds margin to the left of the text */
+}
+.banner2 { 
+    padding-left: 40px; /* Adds padding to the left of the banner */
+   margin-top: 25px; /* Adds margin to the top of the banner */
+   margin-bottom: 15px; /* Adds margin to the bottom of the banner */
+   color: blue; /* Sets the text color to aqua */
+    background-color: 250, 250, 250; /* Sets the background color to a light shade */
+}
+.image-text-container {
+    display: flex; /* Enables flexbox */
+    align-items: flex-end; /* Aligns items vertically in the center */
+    gap: 60px; /* Adds space between the image and text */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    justify-content:space-evenly; 
+}
+.bb {
+    width: 30%; /* Sets the width of the image */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 10px; /* Optional: Rounds the corners of the image */
+    outline: none; /* Removes the default outline on focus */
+}
+
+.side-image {
+    width: 300px; /* Sets the width of the image */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 10px; /* Optional: Rounds the corners of the image */
+    justify-content: left;
+    
+}
+.dark-wrap {
+    background-color: black; /* Sets the background color to black */
+    color: white; /* Makes the text white */
+    padding: 20px; /* Adds padding around the text */
+    text-align: center; /* Centers the text */
+    display: flex; /* Enables flexbox */
+    justify-content: space-between; /* Adds space between the items */
+    align-items: center; /* Aligns items vertically */
+    font-size: 17px; /* Sets the font size */
+    font-family: Arial, sans-serif; /* Sets the font family */
+}
+.col-flex {
+    display: flex; /* Enables flexbox */
+    justify-content: space-evenly; /* Adds space between the items */
+    align-items: center; /* Aligns items vertically */
+    margin-top: 25px; /* Adds margin to the top of the container */
+    margin-bottom: 25px; /* Adds margin to the bottom of the container */
+    margin-right: 25px;
+    margin-left: 25px;
+    color: white;
+}
+.top-search {
+margin-right: 25px;
+}
+.Keywords {
+    width: 100%; /* Makes the search bar take full width of its container */
+    max-width: 500px; /* Limits the maximum width */
+    height: 50px; /* Sets the height of the search bar */
+    padding: 10px 20px; /* Adds padding inside the search bar */
+    font-size: 18px; /* Increases the font size */
+    border: 2px solid #ccc; /* Adds a border */
+    border-radius: 25px; /* Makes the corners rounded */
+    outline: none; /* Removes the default outline on focus */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.Keywords:focus {
+    border-color: #2a589c; /* Changes border color on focus */
+    box-shadow: 0 0 5px rgba(42, 88, 156, 0.5); /* Adds a glow effect on focus */
+}
+.text-content {
+    max-width: 600px; /* Limits the width of the text */
+    font-family: Arial, sans-serif; /* Sets the font */
+    color: black; /* Sets the text color */
+    margin-right: 25px;
+}
+.container {
+    display: flex; /* Enables flexbox */
+    justify-content: space-between; /* Adds space between the items */
+    align-items: center; /* Aligns items vertically */
+}
+
+    .nav-list {
+        display: flex; /* Enables flexbox */
+        justify-content: space-evenly; /* Spreads items evenly with equal space around them */
+        list-style: none; /* Removes bullet points */
+        padding: 0; /* Removes default padding */
+        margin: 0; /* Removes default margin */
+        font-weight: lighter; /* Makes the text lighter */
+        font-size: 20px;
+    }
+    
+    .nav-list li {
+        margin: 0 10px; /* Optional: Adds spacing between items */
+    }
+    
+    .nav-list a {
+        text-decoration: none; /* Removes underline from links */
+        color: rgb(20, 15, 15); /* Makes the text white */
+        font-weight: bold; /* Makes the text bold */
+    }
+    .truck-image {
+        width: 200px; /* Sets the width of the image */
+        margin-left: 55px; /* Adds margin around the image */
+        display: block; /* Centers the image horizontally */
+        height: 80px; /* Maintains aspect ratio */
+        justify-content: left;
+
+    }
+.call {
+    font-weight: bold; /* Makes the text lighter */
+    font-size: 25px; /* Sets the font size */
+
+}
+.call a {
+    text-decoration: none; /* Removes underline from links */
+    color: blue; /* Makes the text white */
+}
+.contact-area {
+    background-color: #2a589c;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    display: block;
+    unicode-bidi: isolate; /* Isolates the text direction */
+}
+form.consign {
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 6% 0; /* Adds padding around the form */
+    font-size: 20px; /* Sets the font size */
+}
+input, textarea {
+    width: 100%; /* Makes the input take full width of its container */
+    max-width: 400px; /* Limits the maximum width */
+    padding: 10px 15px; /* Adds padding inside the input */
+    font-size: 16px; /* Sets the font size */
+    border: 1px solid #ccc; /* Adds a border */
+    border-radius: 5px; /* Rounds the corners */
+    outline: none; /* Removes the default outline on focus */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+input:focus, textarea:focus {
+    border-color: #2a589c; /* Changes border color on focus */
+    box-shadow: 0 0 5px rgba(42, 88, 156, 0.5); /* Adds a glow effect on focus */
+}
+.cta{
+    background-color: #2a589c; /* Sets the background color */
+    color: white; /* Sets the text color */
+    padding: 10px 20px; /* Adds padding around the button */
+    font-size: 16px; /* Sets the font size */
+    font-weight: bold; /* Makes the text bold */
+    border: none; /* Removes the border */
+    border-radius: 5px; /* Rounds the corners */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    text-transform: uppercase; /* Makes the text uppercase */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Adds hover effects */
+    text-decoration: none; /* Removes underline from links */
+    margin: 50px; /* Adds margin around the button */
+}
+
+.next-button:hover {
+    background-color: #1e4a84; /* Changes the background color on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
